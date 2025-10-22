@@ -14,10 +14,10 @@ public class GitClient {
 
 
         System.out.println("Welcome to GitClient!");
-        System.out.println("Enter a valid username as follows: java GitHubAcivityCLI <username>");
+        System.out.println("Enter a valid username as follows: java GitClient <username>");
 
         if (args.length != 1) {
-            System.out.println("Usage: java GitHubAcivityCLI <username>");
+            System.out.println("Usage: java GitClient <username>");
             return;
         }
         GitClient cli = new GitClient();
